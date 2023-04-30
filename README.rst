@@ -9,6 +9,11 @@ INSTALL
 
 先装talib的C库，再用pip装依赖。
 
+```
+pip install TA-Lib
+pin install -r requirements.txt
+```
+
 修改 mysql 配置文件 /etc/my.cnf.d/server.cnf ，增加如下配置:
 
     [mysqld]
